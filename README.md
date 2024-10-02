@@ -17,17 +17,6 @@ A simple clone of the Spotify web player interface built using HTML, CSS, and Ja
 - **CSS3**: For styling and layout, including Flexbox, Grid, and media queries for responsiveness.
 - **JavaScript**: For interactivity, including handling play/pause buttons, progress bar, and dynamic content.
 
-## Live Demo 🌐
-
-[Click here to see the demo](#) (Replace with live demo link)
-
-## Screenshots 📸
-
-Include screenshots of the interface here.
-
-## Getting Started 🚀
-
-### Prerequisites
 
 To run this project, you don't need any server or backend technology. All you need is a browser.
 
