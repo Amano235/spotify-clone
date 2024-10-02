@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>Spotify-web player:Music for everyone</title>
+</head>
+
+<body>
+    <div class="container flex bg-black ">
+        <div class="left  ">
+            <div class="close">
+                <img class="invert" src="close.svg" alt="">
+            </div>
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo"><img width="120px" class="invert" src="logo.svg" alt="logo"></div>
+                <ul>
+                    <li><img class="invert" src="home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="playlist.svg" alt="">
+                    <h2>
+                        Your library
+                    </h2>
+
+                </div>
+
+                <div class="songList">
+                    <ul>
+
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Safety &amp; Privacy
+                                Center</span></a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right   bg-grey rounded m-1">
+            <div class="header">
+                <div class="nav">
+                   <div class="hamburgerContainer flex">
+                        <img width="40" class="invert hamburger" src="hamburger.svg" alt="">
+                 
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#ffffff"
+                        fill="none">
+                        <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#ffffff"
+                        fill="none">
+                        <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+
+                </div>
+
+
+                <div class="button">
+                    <button class="signupbtn">Sign up</button>
+                    <button class="loginbtn">Log in</button>
+
+                </div>
+            </div>
+            <div class="spotisfyPlaylists ">
+                <h1>Spotify Playlists</h1>
+                <div class="cardContainer  ">
+                    <div data-folder="ncs" class="card ">
+                        <div  class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="34"
+                                fill="none">
+                                <path d="M8 5v14l11-7z" fill="black" />
+                            </svg>
+                        </div>
+
+                        <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67706f00000002e316f8c02291346eb98785dd" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj">
+                        <h2>Jazzy MOrning</h2>
+                        <p> Start your day right and wake up with some calm and cool Jazz.</p>
+
+                    </div>
+
+
+
+
+                    <div data-folder="cs" class="card ">
+
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="34"
+                                fill="none">
+                                <path d="M8 5v14l11-7z" fill="black" />
+                            </svg>
+                        </div>
+                        <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e025f3ede47954a93aa03efe5f9" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj">
+                        <h2>Animal</h2>
+                        <p>Manan Bhardwaj,Vishal Mishra,Janni</p>
+
+                    </div>
+
+
+                    <div data-folder="cs" class="card ">
+
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="34"
+                                fill="none">
+                                <path d="M8 5v14l11-7z" fill="black" />
+                            </svg>
+                        </div>
+                        <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj">
+                        <h2>Aashiqui2</h2>
+                        <p>Mithoon,Ankit Tiwari,Jeet Ganguli</p>
+
+                    </div>
+
+
+                    
+                    <div data-folder="cs" class="card ">
+
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="34"
+                                fill="none">
+                                <path d="M8 5v14l11-7z" fill="black" />
+                            </svg>
+                        </div>
+                        <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e021a8c4618eda885a406958dd0" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj">
+                        <h2>Still Rollin</h2>
+                        <p>Shubh</p>
+
+                    </div>
+
+
+                    
+                    <div data-folder="cs" class="card ">
+
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="34"
+                                fill="none">
+                                <path d="M8 5v14l11-7z" fill="black" />
+                            </svg>
+                        </div>
+                        <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e02cb2f9520171129a3df7a241a" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj">
+                        <h2>Ghost</h2>
+                        <p>Diljit Dosanjh</p>
+
+                    </div>
+
+
+                    
+                    <div data-folder="cs" class="card ">
+
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="34"
+                                fill="none">
+                                <path d="M8 5v14l11-7z" fill="black" />
+                            </svg>
+                        </div>
+                        <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e021d1cc2e40d533d7bcebf5dae" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj">
+                        <h2>MooseTape</h2>
+                        <p>Sidhu Moose Wala</p>
+
+                    </div>
+
+
+                    
+                    <div data-folder="cs" class="card ">
+
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="34"
+                                fill="none">
+                                <path d="M8 5v14l11-7z" fill="black" />
+                            </svg>
+                        </div>
+                        <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e02c60cc14ac9fd0dc9a30d30f3" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj">
+                        <h2>Rmoantic</h2>
+                        <p>Aman</p>
+
+                    </div>
+
+
+                    
+                    <div data-folder="cs" class="card ">
+
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="34"
+                                fill="none">
+                                <path d="M8 5v14l11-7z" fill="black" />
+                            </svg>
+                        </div>
+                        <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj">
+                        <h2>Ek Tha Raja</h2>
+                        <p>Badshah</p>
+
+                    </div>
+
+                    <div data-folder="cs" class="card ">
+
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="34"
+                                fill="none">
+                                <path d="M8 5v14l11-7z" fill="black" />
+                            </svg>
+                        </div>
+                        <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj">
+                        <h2>Ek Tha Raja</h2>
+                        <p>Badshah</p>
+
+                    </div>
+
+                 
+                    <div data-folder="cs" class="card ">
+
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="34"
+                                fill="none">
+                                <path d="M8 5v14l11-7z" fill="black" />
+                            </svg>
+                        </div>
+                        <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj">
+                        <h2>Ek Tha Raja</h2>
+                        <p>Badshah</p>
+
+                    </div>
+
+
+
+                    <div data-folder="cs" class="card ">
+
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="34"
+                                fill="none">
+                                <path d="M8 5v14l11-7z" fill="black" />
+                            </svg>
+                        </div>
+                        <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj">
+                        <h2>Ek Tha Raja</h2>
+                        <p>Badshah</p>
+
+                    </div>
+
+                    <div data-folder="cs" class="card ">
+
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="34"
+                                fill="none">
+                                <path d="M8 5v14l11-7z" fill="black" />
+                            </svg>
+                        </div>
+                        <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj">
+                        <h2>Ek Tha Raja</h2>
+                        <p>Badshah</p>
+
+                    </div>
+
+                    <div data-folder="cs" class="card ">
+
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="34"
+                                fill="none">
+                                <path d="M8 5v14l11-7z" fill="black" />
+                            </svg>
+                        </div>
+                        <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj">
+                        <h2>Ek Tha Raja</h2>
+                        <p>Badshah</p>
+
+                    </div>
+                  
+
+                    <div data-folder="cs" class="card ">
+
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="34"
+                                fill="none">
+                                <path d="M8 5v14l11-7z" fill="black" />
+                            </svg>
+                        </div>
+                        <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj">
+                        <h2>Ek Tha Raja</h2>
+                        <p>Badshah</p>
+
+                    </div>
+
+
+
+
+
+
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <div class="abovebar">
+                        <div class="songinfo">
+
+                        </div>
+                        <div class="songbuttons">
+                            <img  width="30"  id="previous" src="prevsong.svg" alt="">
+                            <img  width="30" id="play" src="play.svg" alt="">
+                            <img  width="30"  id="next" src="nextsong.svg" alt="">
+                        </div>
+                        <div class="timevol">
+                        <div class="songtime">
+
+                        </div>
+                        <div  class="volume">
+                            <img width="25" src="volume.svg" alt="">
+                            <div class="range">
+                                <input type="range" name="volume" id="">
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="script.js">
+
+
+    </script>
+
+</body>
+
+</html>
